@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav {
+            padding: 25px;
+            float: right;
+        }
+
+        .nav-menu a {
+            color: black;
+            margin-right: 10px;
+        }
+
+        .banner {
+            height: 300px;
+            width: 100%;
+            background-color: blue;
+            clear: right;
+            /* Menambahkan properti clear untuk memastikan banner berada di bawah navigasi */
+            display: flex;
+            align-items: center;
+            /* Untuk membuat h2 berada di tengah secara vertikal */
+            justify-content: center;
+            /* Untuk membuat h2 berada di tengah secara horizontal */
+        }
+
+        .banner h2 {
+            color: white;
+            text-align: center;
+            font-weight: 300;
+        }
+
+        .sidebar {
+            background-color: lightgrey;
+            width: 20%;
+            padding: 40px 0px 40px 0px;
+            float: left;
+            height: 60%;
+        }
+
+        .sidebar section {
+            height: 8.5vh;
+            margin-left: 12vh;
+            padding: 13px;
+            font-size: larger;
+            text-align: left;
+        }
+
+        .konten {
+            padding: 35px;
+            width: 70%;
+            float: left;
+        }
+
+        .konten img {
+            height: 25vh;
+            width: 100%;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: blue;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body class="clearfix">
+    <div class="nav">
+        <!-- menu -->
+        <section class="nav-menu">
+            <a href="">Beranda</a>
+            <a href="">Layanan Kami</a>
+            <a href="">Tentang Kami</a>
+            <a href="">Kontak Kami</a>
+        </section>
+    </div>
+    <div class="banner">
+        <h2>Selamat Datang Di Website Kami</h2>
+    </div>
+    <div class="sidebar">
+        <section>Artikel</section>
+        <section>Bantuan</section>
+        <section>Kuesioner</section>
+        <section>Login</section>
+        <section>Register</section>
+    </div>
+    <div class="konten">
+        <img src="draw.jpg" alt="">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus et elit vel interdum. Integer varius
+            nunc eu diam blandit gravida. In et sem elementum, fermentum enim ac, congue magna. Suspendisse sit amet
+            facilisis erat. Nulla ultrices ut ex non fermentum. Phasellus eget interdum leo. Duis mauris arcu, accumsan
+            at feugiat ac, pulvinar ut leo. Quisque mauris ligula, sagittis vel sollicitudin eget, lacinia vel tellus.
+            Morbi fringilla tempor dictum. Donec sagittis hendrerit molestie. In pharetra augue at blandit maximus.
+            <br><br>
+            Donec sit amet eros nec leo commodo consequat at at ante. Etiam at elit ut urna tincidunt porttitor non et
+            velit. Ut lobortis vulputate mi, sed aliquam ante consectetur in. Nullam maximus sed turpis ut vulputate.
+            Morbi vitae porta erat, id mollis tortor. Proin condimentum magna ac nisi laoreet, sed fermentum tellus
+            lobortis. Cras non commodo nisi, at fringilla augue. Sed a nibh ac orci facilisis commodo. Proin nec diam et
+            nisl bibendum luctus eu at risus. Phasellus risus ipsum, sollicitudin mollis massa nec, congue ultricies
+            lectus. Nulla accumsan scelerisque mollis. Morbi eleifend magna nec nulla tempus gravida. Sed id iaculis mi.
+            Nullam in felis viverra, varius mi ac, luctus ex. Aliquam nulla tellus.
+        </p>
+    </div>
+    <div class="footer">
+        copyright 2023
+    </div>
+</body>
+
+</html>
